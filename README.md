@@ -7,6 +7,16 @@ directory.
 Instructions to follow soon :)
 
 
+Contents
+-------
+
+This toolkit contains:
+
+* .fetchmailrc file to download gmail data via POP3 and pass it into procmail.
+* maildir-deduplicate script to identify and remove duplicate messages once
+  downloaded.
+
+
 cui honorem, honorem
 --------------------
 
