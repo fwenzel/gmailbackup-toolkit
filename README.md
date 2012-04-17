@@ -13,6 +13,8 @@ Contents
 This toolkit contains:
 
 * .fetchmailrc file to download gmail data via POP3 and pass it into procmail.
+* .procmailrc file to place fetched email into a backup directory in Maildir
+  format.
 * maildir-deduplicate script to identify and remove duplicate messages once
   downloaded.
 
