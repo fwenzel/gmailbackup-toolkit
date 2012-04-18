@@ -12,9 +12,11 @@ Contents
 
 This toolkit contains:
 
-* .fetchmailrc file to download gmail data via POP3 and pass it into procmail.
-* .procmailrc file to place fetched email into a backup directory in Maildir
+* ``.fetchmailrc`` file to download gmail data via POP3 and pass it into procmail.
+* ``.procmailrc`` file to place fetched email into a backup directory in Maildir
   format.
+* ``download_ssl_certs.sh``: Simple script to download SSL certificates for
+  pop.gmail.com and its root CA.
 * maildir-deduplicate script to identify and remove duplicate messages once
   downloaded.
 
@@ -29,6 +31,8 @@ me.
 
 Thanks to the following people/sources for their great code and documentation:
 
+* [Ali Rantakari](http://hasseg.org/blog/post/161/gmail-backups-with-fetchmail-on-os-x/)
+  for a good manual configuration howto for backing up gmail.
 * [maildir-deduplicate](https://github.com/kdeldycke/scripts/blob/master/maildir-deduplicate.py)
   by Kevid Deldycke. GPL.
 
