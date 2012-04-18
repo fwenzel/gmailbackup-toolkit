@@ -1,5 +1,5 @@
 MAILDIR="$HOME/Documents/gmailbackup"
-DEFAULT="$HOME/Documents/gmailbackup/$USER"
+DEFAULT="$HOME/Documents/gmailbackup/"
 
 :0
-$USER/
+myusername/
