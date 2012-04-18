@@ -16,9 +16,9 @@ This toolkit contains:
 * ``.procmailrc`` file to place fetched email into a backup directory in Maildir
   format.
 * ``download_ssl_certs.sh``: Simple script to download SSL certificates for
+  pop.gmail.com and its root CA.
 * ``gmailbackup.sh``: Script that repeatedly runs fetchmail until an error occurs
   or no email is left to be fetched.
-  pop.gmail.com and its root CA.
 * maildir-deduplicate script to identify and remove duplicate messages once
   downloaded.
 
