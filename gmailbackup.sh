@@ -21,4 +21,5 @@ done
 
 if [ "$EXITCODE" -ne "1" ]; then
     echo "$0 error: Fetchmail returned error code $EXITCODE" 1>&2
+    echo "'man fetchmail' explains what that means." 1>&2
 fi
