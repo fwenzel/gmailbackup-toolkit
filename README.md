@@ -1,14 +1,10 @@
-GMail backup toolkit
-====================
+# GMail backup toolkit
 
 These are some useful tools and scripts for backing up GMail into a local
 directory.
 
-Instructions to follow soon :)
 
-
-Contents
--------
+## Contents
 
 This toolkit contains:
 
@@ -23,8 +19,7 @@ This toolkit contains:
   downloaded.
 
 
-cui honorem, honorem
---------------------
+## cui honorem, honorem
 
 This collection is inspired by and uses various Open Source tools from
 across the Web. I'm making my best effort to give credit in this file
